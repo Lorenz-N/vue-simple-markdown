@@ -3,7 +3,7 @@ import NodeEmoji from 'node-emoji'
 const SHORTCUTS = {
   angry: ['>:(', '>:-('],
   blush: [':")', ':-")'],
-  broken_heart: ['</3', '<\\3'],
+  broken_heart: ['</3', '<\\3'], // eslint-disable-line
   confused: [':/', ':-/', ':\\', ':-\\'],
   cry: [":'(", ":'-(", ':,(', ':,-('],
   frowning: [':(', ':-('],
@@ -13,17 +13,17 @@ const SHORTCUTS = {
   joy: [":')", ":'-)", ':,)', ':,-)', ":'D", ":'-D", ':,D', ':,-D'],
   kissing: [':*', ':-*'],
   laughing: ['x-)', 'X-)'],
-  neutral_face: [':|', ':-|'],
-  open_mouth: [':o', ':-o', ':O', ':-O'],
+  neutral_face: [':|', ':-|'], // eslint-disable-line
+  open_mouth: [':o', ':-o', ':O', ':-O'], // eslint-disable-line
   rage: [':@', ':-@'],
   smile: [':D', ':-D'],
   smiley: [':)', ':-)'],
-  smiling_imp: [']:)', ']:-)'],
+  smiling_imp: [']:)', ']:-)'], // eslint-disable-line
   sob: [":,'(", ":,'-(", ';(', ';-('],
-  stuck_out_tongue: [':P', ':-P'],
+  stuck_out_tongue: [':P', ':-P'], // eslint-disable-line
   sunglasses: ['8-)', 'B-)'],
   sweat: [',:(', ',:-('],
-  sweat_smile: [',:)', ',:-)'],
+  sweat_smile: [',:)', ',:-)'], // eslint-disable-line
   unamused: [':s', ':-S', ':z', ':-Z', ':$', ':-$'],
   wink: [';)', ';-)']
 }

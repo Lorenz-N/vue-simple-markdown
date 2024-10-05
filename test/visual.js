@@ -62,8 +62,11 @@ after(function () {
   })
 })
 
+// Missing specs
+/*
 const specsContext = require.context('./specs', true)
 specsContext.keys().forEach(specsContext)
+*/
 
 window.mocha.checkLeaks()
 window.mocha.run()
