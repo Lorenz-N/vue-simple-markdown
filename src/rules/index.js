@@ -16,7 +16,6 @@ const RULES = [
   Highlight,
   InlineCode,
   HorizontalLine,
-  Lists,
   Quote,
   Strong,
   Italic,
@@ -25,7 +24,7 @@ const RULES = [
   Linkify,
   Heading,
   Emoji,
-  InlineCode,
+  Lists,
   Table
 ]
 
@@ -34,7 +33,6 @@ export {
   Highlight,
   InlineCode,
   HorizontalLine,
-  Lists,
   Quote,
   Strong,
   Italic,
@@ -43,5 +41,6 @@ export {
   Linkify,
   Heading,
   Emoji,
+  Lists,
   Table
 }
